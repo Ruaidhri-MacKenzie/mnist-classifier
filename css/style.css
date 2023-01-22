@@ -12,6 +12,7 @@ body {
 	min-height: 100vh;
 	display: grid;
 	grid-template-rows: auto auto auto 1fr auto;
+	justify-content: center;
 	align-items: start;
 	gap: 2em;
 	padding: 1em;
