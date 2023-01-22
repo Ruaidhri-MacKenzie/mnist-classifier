@@ -1,0 +1,53 @@
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Courier New", Courier, monospace;
+}
+
+#container {
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: auto auto auto 1fr auto;
+	align-items: start;
+	gap: 2em;
+	padding: 1em;
+}
+
+#image-container {
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	gap: 1em;
+	padding: 1em;
+	border: 1px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#image-input {
+	display: none;
+}
+
+#image-display {
+	background-color: white;
+}
+
+#predict-container {
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	gap: 1em;
+	padding: 1em;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#predict-input {
+	font-size: 1rem;
+	padding: 0.5em 1em;
+	cursor: pointer;
+}
